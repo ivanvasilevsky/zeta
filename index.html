@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/css/style.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Rubik:wght@300&display=swap" rel="stylesheet">
+	<script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+	<link rel="icon" type="image/png" href="assets/img/favicon/favicon.png">
+	
+	
+	<!-- Uselful meta tags -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Главная</title></head>
+
+<body>
+
+	<div class="page">
+		<div class="header">
+			<div class="container">
+				<div class="header__inner">
+					<div class="header__left">
+						<a href="index.html">
+							<img src="assets/img/icons/ZETA.svg" alt="ZETA" class="header__icon">
+						</a>
+						<div class="language__btn" id="top-btn">
+							<a href="index.html" class="lang--btn">Ru</a>
+							<a href="en/index_en.html" class="lang--btn">En</a>
+							<a href="index_kz.html" class="lang--btn">Kz</a>
+						</div>
+					</div>
+				
+					<div class="intro-mini__content mini-time" id="time">
+						<div class="content__mini-time  mini-time">
+							<img src="assets/img/icons/time.svg" alt="" class="content__mini-img">
+							<div class="info-block">
+								<p class="map__subtitle-light
+							map__subtitle-light--mini">с 09:00 до 18:00 (Пн - Пт)</p>
+								<p class="map__subtitle-light
+							map__subtitle-light--mini">с 10:00 до 18:00 (Сб - Вс)</p>
+							</div>
+						</div>
+					</div>
+					<div class="intro-mini__content" id="number">
+						<div class="content__mini-time">
+							<img src="assets/img/icons/contact.svg" alt="" class="content__mini-img">
+							<div class="info-block">
+								<a href="tel:+77273131351" class="map__link map__link--mini">+7 (727) 313-13-51</a>
+								<a href="tel:+77003131388" class="map__link map__link--mini">+7 (700) 313-13-88</a>
+							</div>
+						</div>
+					</div>
+				
+					<div class="header__btn">
+						<div class="search__container">
+							<img src="assets/img/icons/search.svg" alt="" class="header__search" onmouseover="">
+							<input type="text" class="search__input" placeholder="Поиск" id="search">
+						</div>
+						<img src="assets/img/icons/basket.svg" alt="" class="header__basket">
+					</div>
+				</div><!-- header__inner -->		<div class="header__intro">
+					<div class="intro__nav">
+						<h2 class="intro__title">Каталог</h2>
+						<ul class="intro__roll">
+				
+							<li class="intro__nav-list">
+								<a href="armchear.html" class="intro__nav-link" onmouseover="hoverOn00(), hoverOn01()" onmouseout="hoverOff00(), hoverOff01()">
+									<img src="assets/img/icons/armchair.svg" alt="Кресла" class="intro__nav-icon">
+									<h4 class="intro__nav-title">Кресла</h4>
+								</a>
+							</li>
+							<li class="intro__nav-list">
+								<a href="chair.html" class="intro__nav-link" onmouseover="hoverOn00(), hoverOn02()" onmouseout="hoverOff00(), hoverOff02()">
+									<img src="assets/img/icons/chair.svg" alt="Стулья" class="intro__nav-icon">
+									<h4 class="intro__nav-title">Стулья</h4>
+								</a>
+							</li>
+							<li class="intro__nav-list">
+								<a href="table.html" class="intro__nav-link" onmouseover="hoverOn00(), hoverOn03()" onmouseout="hoverOff00(), hoverOff03()">
+									<img src="assets/img/icons/table.svg" alt="Столы" class="intro__nav-icon">
+									<h4 class="intro__nav-title">Столы</h4>
+								</a>
+							</li>
+							<li class="intro__nav-list">
+								<a href="cupbeard.html" class="intro__nav-link" onmouseover="hoverOn00(), hoverOn04()" onmouseout="hoverOff00(), hoverOff04()">
+									<img src="assets/img/icons/cupboard.svg" alt="Гардеробные" class="intro__nav-icon">
+									<h4 class="intro__nav-title">Гардеробные</h4>
+								</a>
+							</li>
+							<li class="intro__nav-list">
+								<a href="pc.html" class="intro__nav-link" onmouseover="hoverOn00(), hoverOn05()" onmouseout="hoverOff00(), hoverOff05()">
+									<img src="assets/img/icons/pc.svg" alt="Компьютерные столы" class="intro__nav-icon">
+									<h4 class="intro__nav-title"">Компьютерные столы</h4>
+								</a>
+							</li>
+							<li class="intro__nav-list">
+								<a href="bed.html" class="intro__nav-link" onmouseover="hoverOn00(), hoverOn06()" onmouseout="hoverOff00(), hoverOff06()">
+									<img src="assets/img/icons/bad.svg" alt="Кровати" class="intro__nav-icon">
+									<h4 class="intro__nav-title"">Кровати</h4>
+								</a>
+							</li>
+							<li class="intro__nav-list">
+								<a href="soft_furniture.html" class="intro__nav-link" onmouseover="hoverOn00(), hoverOn07()" onmouseout="hoverOff00(), hoverOff07()">
+									<img src="assets/img/icons/sofa.svg" alt="Мягкая мебель" class="intro__nav-icon">
+									<h4 class="intro__nav-title"">Мягкая мебель</h4>
+								</a>
+							</li>
+							<li class="intro__nav-list">
+								<a href="cotage.html" class="intro__nav-link" onmouseover="hoverOn00(), hoverOn08()" onmouseout="hoverOff00(), hoverOff08()">
+									<img src="assets/img/icons/home.svg" alt="Дача и сад" class="intro__nav-icon">
+									<h4 class="intro__nav-title">Дача и сад</h4>
+								</a>
+							</li>
+							<li class="intro__nav-list">
+								<a href="trashbag.html" class="intro__nav-link" onmouseover="hoverOn00(), hoverOn09()" onmouseout="hoverOff00(), hoverOff09()">
+									<img src="assets/img/icons/trash.svg" alt="Мусорные баки и урны" class="intro__nav-icon">
+									<h4 class="intro__nav-title">Мусорные баки и урны</h4>
+								</a>
+							</li>
+							<li class="intro__nav-list">
+								<a href="plastic.html" class="intro__nav-link" onmouseover="hoverOn00(), hoverOn10()" onmouseout="hoverOff00(), hoverOff10()">
+									<img src="assets/img/icons/plastic.svg" alt="Пластиковые изделия" class="intro__nav-icon">
+									<h4 class="intro__nav-title"">Пластиковые изделия</h4>
+								</a>
+							</li>
+							<li class="intro__nav-list">
+								<a href="leather.html" class="intro__nav-link" onmouseover="hoverOn00(), hoverOn11()" onmouseout="hoverOff00(), hoverOff11()">
+									<img src="assets/img/icons/leather.svg" alt="Изделия из кожи" class="intro__nav-icon">
+									<h4 class="intro__nav-title"">Изделия из кожи</h4>
+								</a>
+							</li>
+				
+						</ul><!-- ul-list -->
+					</div><div class="intro__content">
+					<div class="inner__intro-content f00" id="f00">
+						<h2 class="intro__content-title">В гармонии с мечтой</h2>
+						<img src="assets/img/intro_img/group00.png" alt="В гармонии с мечтой" class="intro__content-img">
+					</div>
+					<div class="inner__intro-content f01" id="f01">
+						<h2 class="intro__content-title">Кресла</h2>
+						<h4 class="intro__bg-title">01</h4>
+						<img src="assets/img/intro_img/armchair01.png" alt="Кресла" class="intro__content-img">
+					</div>
+					<div class="inner__intro-content f02" id="f02">
+						<h2 class="intro__content-title">Стулья</h2>
+						<h4 class="intro__bg-title">02</h4>
+						<img src="assets/img/intro_img/chair02.png" alt="Стулья" class="intro__content-img img-chair">
+					</div>
+					<div class="inner__intro-content f03" id="f03">
+						<h2 class="intro__content-title">Столы</h2>
+						<h4 class="intro__bg-title">03</h4>
+						<img src="assets/img/intro_img/table03.png" alt="Столы" class="intro__content-img">
+					</div>
+					<div class="inner__intro-content f04" id="f04">
+						<h2 class="intro__content-title">Гардеробные</h2>
+						<h4 class="intro__bg-title">04</h4>
+						<img src="assets/img/intro_img/cupboard04.png" alt="Гардеробные" class="intro__content-img">
+					</div>
+					<div class="inner__intro-content f05" id="f05">
+						<h2 class="intro__content-title">Компьютерные столы</h2>
+						<h4 class="intro__bg-title">05</h4>
+						<img src="assets/img/intro_img/pc05.png" alt="Компьютерные столы" class="intro__content-img">
+					</div>
+					<div class="inner__intro-content f06" id="f06">
+						<h2 class="intro__content-title">Кровати</h2>
+						<h4 class="intro__bg-title">06</h4>
+						<img src="assets/img/intro_img/bed06.png" alt="Кровати" class="intro__content-img">
+					</div>
+					<div class="inner__intro-content f07" id="f07">
+						<h2 class="intro__content-title">Мягкая мебель</h2>
+						<h4 class="intro__bg-title">07</h4>
+						<img src="assets/img/intro_img/sofa07.png" alt="Мягкая мебель" class="intro__content-img">
+					</div>
+					<div class="inner__intro-content f08" id="f08">
+						<h2 class="intro__content-title">Дача и сад</h2>
+						<h4 class="intro__bg-title">08</h4>
+						<img src="assets/img/intro_img/flower_pot08.png" alt="Дача и сад" class="intro__content-img">
+					</div>
+					<div class="inner__intro-content f09" id="f09">
+						<h2 class="intro__content-title">Мусорные баки и урны</h2>
+						<h4 class="intro__bg-title">09</h4>
+						<img src="assets/img/intro_img/trash09.png" alt="Мусорные баки и урны" class="intro__content-img">
+					</div>
+					<div class="inner__intro-content f10" id="f10">
+						<h2 class="intro__content-title">Мусорные баки и урны</h2>
+						<h4 class="intro__bg-title">10</h4>
+						<img src="assets/img/intro_img/plastic10.png" alt="Мусорные баки и урны" class="intro__content-img">
+					</div>
+					<div class="inner__intro-content f11" id="f11">
+						<h2 class="intro__content-title">Изделия из кожи</h2>
+						<h4 class="intro__bg-title">11</h4>
+						<img src="assets/img/intro_img/leather11.png" alt="Изделия из кожи" class="intro__content-img">
+					</div>
+				
+				</div>	</div>
+		</div>
+		</div>
+		<div class="content">
+			
+			<div class="best">
+				<div class="container">
+					<div class="best__inner">
+						<div class="best__unit">
+							<img src="assets/img/icons/cup.svg" alt="" class="best__icon">
+							<div class="best__text">
+								<h2 class="best__title">Лидер</h2>
+								<h4 class="best__subtitle">по производству мебели</h4>
+							</div>
+						</div>
+						<div class="best__unit">
+							<img src="assets/img/icons/medal.svg" alt="" class="best__icon">
+							<div class="best__text">
+								<h2 class="best__title">Качество</h2>
+								<h4 class="best__subtitle">лучшие технологии</h4>
+							</div>
+						</div>
+						<div class="best__unit">
+							<img src="assets/img/icons/arm.svg" alt="" class="best__icon">
+							<div class="best__text">
+								<h2 class="best__title">Гарантия</h2>
+								<h4 class="best__subtitle">более 20 лет на рынке</h4>
+							</div>
+						</div>
+						<div class="best__unit">
+							<img src="assets/img/icons/fire.svg" alt="" class="best__icon">
+							<div class="best__text">
+								<h2 class="best__title">Цена</h2>
+								<h4 class="best__subtitle">Низкие цены</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="news">
+				<div class="container">
+					<div class="news__inner">
+						<h2 class="news__title">Новинки</h2>
+			
+						<div class="product product-repeat">
+							<div class="product__block">
+								<a href="product.html" class="product__link">
+									<img src="assets/img/product/table.jpg" alt="table" class="prodict__img" id="prodict__img">
+								</a>
+								<div class="product__footer">
+									<h2 class="products__title">Стол Rider</h2>
+									<h4 class="product__subtitle">Минимализм и комфорт</h4>
+									<div class="product__buy">
+										<div class="buy__price">
+											<h2 class="buy__title">15000<span>тг</span></h2>
+											<h4 class="buy__subtitle">15000<span>тг</span></h4>
+										</div>
+										<div class="buy_basket">
+											<img src="assets/img/icons/basket_plus.svg" alt="" class="buy__icon">
+										</div>
+									</div>
+								</div>
+							</div> <!-- product__block -->
+							<div class="product__block">
+								<a href="product.html" class="product__link">
+									<img src="assets/img/product/set.jpg" alt="table" class="prodict__img">
+								</a>
+								<div class="product__footer">
+									<h2 class="products__title">Набор home comfort</h2>
+									<h4 class="product__subtitle">Все в одном</h4>
+									<div class="product__buy">
+										<div class="buy__price">
+											<h2 class="buy__title">40000<span>тг</span></h2>
+											<h4 class="buy__subtitle">45000<span>тг</span></h4>
+										</div>
+										<div class="buy_basket">
+											<img src="assets/img/icons/basket_plus.svg" alt="" class="buy__icon">
+										</div>
+									</div>
+								</div>
+							</div> <!-- product__block -->
+							<div class="product__block">
+								<a href="product.html" class="product__link">
+									<img src="assets/img/product/flower_pot.jpg" alt="table" class="prodict__img">
+								</a>
+								<div class="product__footer">
+									<h2 class="products__title">Цветочный горшок</h2>
+									<h4 class="product__subtitle">Придай элегатности своему саду</h4>
+									<div class="product__buy">
+										<div class="buy__price">
+											<h2 class="buy__title">15000<span>тг</span></h2>
+										</div>
+										<div class="buy_basket">
+											<img src="assets/img/icons/basket_plus.svg" alt="" class="buy__icon">
+										</div>
+									</div>
+								</div>
+							</div> <!-- product__block -->
+							<div class="product__block">
+								<a href="product.html" class="product__link">
+									<img src="assets/img/product/armchair2.jpg" alt="table" class="prodict__img">
+								</a>
+								<div class="product__footer">
+									<h2 class="products__title">Стул Elegance</h2>
+									<h4 class="product__subtitle">Дизайн и удобство</h4>
+									<div class="product__buy">
+										<div class="buy__price">
+											<h2 class="buy__title">18000<span>тг</span></h2>
+										</div>
+										<div class="buy_basket">
+											<img src="assets/img/icons/basket_plus.svg" alt="" class="buy__icon">
+										</div>
+									</div>
+								</div>
+							</div> <!-- product__block -->
+							<div class="product__block">
+								<a href="product.html" class="product__link">
+									<img src="assets/img/product/armchair.jpg" alt="table" class="prodict__img">
+								</a>
+								<div class="product__footer">
+									<h2 class="products__title">Кресло Soft</h2>
+									<h4 class="product__subtitle">Мягкая эстетика</h4>
+									<div class="product__buy">
+										<div class="buy__price">
+											<h2 class="buy__title">25000<span>тг</span></h2>
+										</div>
+										<div class="buy_basket">
+											<img src="assets/img/icons/basket_plus.svg" alt="" class="buy__icon">
+										</div>
+									</div>
+								</div>
+							</div> <!-- product__block -->
+							<div class="product__block">
+								<a href="product.html" class="product__link">
+									<img src="assets/img/product/cup.jpg" alt="table" class="prodict__img">
+								</a>
+								<div class="product__footer">
+									<h2 class="products__title">Кружка Cofee</h2>
+									<h4 class="product__subtitle">Бодрое утро</h4>
+									<div class="product__buy">
+										<div class="buy__price">
+											<h2 class="buy__title">3000<span>тг</span></h2>
+										</div>
+										<div class="buy_basket">
+											<img src="assets/img/icons/basket_plus.svg" alt="" class="buy__icon">
+										</div>
+									</div>
+								</div>
+							</div> <!-- product__block -->
+							<div class="product__block">
+								<a href="product.html" class="product__link">
+									<img src="assets/img/product/polka.jpg" alt="table" class="prodict__img">
+								</a>
+								<div class="product__footer">
+									<h2 class="products__title">Полка Walls</h2>
+									<h4 class="product__subtitle">Место у стены</h4>
+									<div class="product__buy">
+										<div class="buy__price">
+											<h2 class="buy__title">10000<span>тг</span></h2>
+										</div>
+										<div class="buy_basket">
+											<img src="assets/img/icons/basket_plus.svg" alt="" class="buy__icon">
+										</div>
+									</div>
+								</div>
+							</div> <!-- product__block -->
+							<div class="product__block">
+								<a href="product.html" class="product__link">
+									<img src="assets/img/product/sofa.jpg" alt="table" class="prodict__img">
+								</a>
+								<div class="product__footer">
+									<h2 class="products__title">Диван Redlarge</h2>
+									<h4 class="product__subtitle">Наслаждайтесь комфортом</h4>
+									<div class="product__buy">
+										<div class="buy__price">
+											<h2 class="buy__title">55000<span>тг</span></h2>
+											<h4 class="buy__subtitle">60000<span>тг</span></h4>
+										</div>
+										<div class="buy_basket">
+											<img src="assets/img/icons/basket_plus.svg" alt="" class="buy__icon">
+										</div>
+									</div>
+								</div>
+							</div> <!-- product__block -->
+						</div>
+						<button class="btn btn--red">Показать еще</button>
+					</div>
+				</div>
+			</div>
+			<div class="compilations">
+				<div class="container">
+					<div class="compilations__inner">
+						<h2 class="compilations__title">Подборки</h2>
+						<div class="compilations__content">
+							<div class="compilations__block blk--top ">
+								<a href="" class="compilations__link">
+									<img src="assets/img/compilation/new_collection.jpg" alt="" class="compilations__img">
+								</a>
+								<h4 class="compilations__subtitle">Новая<br>Коллеция</h4>
+							</div>
+							<div class="compilations__block blk--top">
+								<a href="" class="compilations__link">
+									<img src="assets/img/compilation/white_tones.jpg" alt="" class="compilations__img">
+								</a>
+								<h4 class="compilations__subtitle">Белые тонна</h4>
+							</div>
+							<div class="compilations__block blk--btm">
+								<a href="" class="compilations__link">
+									<img src="assets/img/compilation/minimalism.jpg" alt="" class="compilations__img">
+								</a>
+								<h4 class="compilations__subtitle">Мини<br>мализм</h4>
+							</div>
+							<div class="compilations__block blk--btm">
+								<a href="" class="compilations__link">
+									<img src="assets/img/compilation/monochromatic.jpg" alt="" class="compilations__img">
+								</a>
+								<h4 class="compilations__subtitle">Однотонные</h4>
+							</div>
+							<div class="compilations__block blk--btm">
+								<a href="" class="compilations__link">
+									<img src="assets/img/compilation/warm.jpg" alt="" class="compilations__img">
+								</a>
+								<h4 class="compilations__subtitle">Теплый</h4>
+							</div>
+			
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="map">
+				<div class="container">
+					<div class="map__inner">
+						<div class="map__content">
+							<div class="mab__block-right">
+								<div class="map__block-contact">
+									<div class="contact__block-icon">
+										<img src="assets/img/icons/contact.svg" alt="" class="contact__icon">
+										<h2 class="map__title">Контакты</h2>
+									</div>
+										<p class="map__subtitle">Интернет магазин:</p>
+										<a href="tel:+77273131351" class="map__link">+7 (727) 313-13-51</a>
+										<a href="tel:+77003131388" class="map__link">+7 (700) 313-13-88</a>
+										<p class="map__subtitle">Отдел контроля:</p>
+										<a href="tel:+77273131371" class="map__link">+7 (727) 313-13-71</a>
+								</div><!-- map__block-contact -->
+								<div class="map__block-contact">
+									<div class="contact__block-icon">
+										<img src="assets/img/icons/location.svg" alt="" class="contact__icon">
+										<h2 class="map__title">Адрес</h2>
+									</div>
+									<p class="map__subtitle-city">г.Алматы</p>
+									<p class="map__subtitle-light">улица Березовского, Алматы 050060</p>
+								</div><!-- map__block-contact -->
+			
+			
+			
+								<div class="map__block-contact">
+									<div class="contact__block-icon">
+										<img src="assets/img/icons/time.svg" alt="" class="contact__icon">
+										<h2 class="map__title">Время работы</h2>
+									</div>
+									<p class="map__subtitle-light">с 09:00 до 18:00 (Пн - Пт)<br>с 10:00 до 18:00 (Сб - Вс)</p>
+								</div><!-- map__block-contact -->
+								</div>
+			
+								<a href="faq.html" class="faq__btn">
+									<button class="btn btn--red-mini">О нас</button>
+								</a>
+			
+						</div>
+			
+						<div class="map__2gis">
+							<div class="gis" id="map"></div>
+						</div>
+					</div>
+				</div>
+			</div>		</div>
+
+		<div class="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<div class="footer__column">
+						<h4 class="footer__column-title">Компания</h4>
+						<ul class="footer__column-ul">
+							<li class="footer__column-li">
+								<a href="" class="footer__column-a">О компании</a>
+							</li>
+							<li class="footer__column-li">
+								<a href="" class="footer__column-a">Адреса магазинов</a>
+							</li>
+							<li class="footer__column-li">
+								<a href="" class="footer__column-a">Контакты</a>
+							</li>
+							<li class="footer__column-li">
+								<a href="" class="footer__column-a">Наши дистрибьюторы</a>
+							</li>
+							<li class="footer__column-li">
+								<a href="" class="footer__column-a">Оптово-корпоративные продажи</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__column">
+						<h4 class="footer__column-title">Интернет-магазин</h4>
+						<ul class="footer__column-ul">
+							<li class="footer__column-li">
+								<a href="" class="footer__column-a">Как заказать</a>
+							</li>
+							<li class="footer__column-li">
+								<a href="" class="footer__column-a">Условия доставки</a>
+							</li>
+							<li class="footer__column-li">
+								<a href="" class="footer__column-a">Способы оплаты</a>
+							</li>
+							<li class="footer__column-li">
+								<a href="" class="footer__column-a">Договор публичной оферты</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__column">
+						<h4 class="footer__column-title">Сервис</h4>
+						<ul class="footer__column-ul">
+							<li class="footer__column-li">
+								<a href="" class="footer__column-a">Сервисный центр</a>
+							</li>
+							<li class="footer__column-li">
+								<a href="" class="footer__column-a">Служба поддержки клиентов</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__column">
+						<h4 class="footer__column-title">Контакты интернет-магазина</h4>
+						<ul class="footer__column-ul">
+							<li class="footer__column-li">
+								<a href="tel:87273131351" class="footer__column-a">8 (727) 313-13-51</a>
+							</li>
+							<li class="footer__column-li">
+								<a href="tel:87003131388" class="footer__column-a">8 (700) 313-13-88</a>
+							</li>
+							<li class="footer__column-li">
+								<a href="tel:87273131371" class="footer__column-a">8 (727) 313-13-71</a>
+							</li>
+							<li class="footer__column-li">
+								<a href="mailto:onlineshop@zeta.kz" class="footer__column-a">E-mail: onlineshop@zeta.kz</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>	</div>
+
+	<div class="modal">
+		<div class="modal__group">
+			<img src="assets/img/icons/cross_bold.svg" alt="" class="modal__cross">
+			<h2 class="modal__title">Корзина</h2>
+			<div class="modal__inner">
+				<div class="modal__product">
+					<img src="assets/img/icons/cross_thin.svg" alt="" class="product__cross">
+	
+					<img src="assets/img/product/armchair2.jpg" alt="product" class="product__img">
+	
+					<div class="product__text">
+						<h2 class="product__title">Стул Elegance</h2>
+						<h4 class="product__subtitle">Дизайн и уобство</h4>
+					</div>
+	
+					<div class="product__number">
+						<img src="assets/img/icons/minus.svg" alt="minus" class="product__minus">
+						<h4 class="product__quantity">1</h4>
+						<img src="assets/img/icons/plus.svg" alt="plus" class="product__plus">
+					</div>
+	
+					<h2 class="product__cost">18000<span>тг</span></h2>
+				</div><!-- product -->
+	
+				<div class="modal__product">
+					<img src="assets/img/icons/cross_thin.svg" alt="" class="product__cross">
+	
+					<img src="assets/img/product/flower_pot.jpg" alt="product" class="product__img">
+	
+					<div class="product__text">
+						<h2 class="product__title">Цветочный горшок</h2>
+						<h4 class="product__subtitle">Придай элегатности своему саду</h4>
+					</div>
+	
+					<div class="product__number">
+						<img src="assets/img/icons/minus.svg" alt="minus" class="product__minus">
+						<h4 class="product__quantity">2</h4>
+						<img src="assets/img/icons/plus.svg" alt="plus" class="product__plus">
+					</div>
+	
+					<h2 class="product__cost">10000<span>тг</span></h2>
+				</div><!-- product -->
+	
+				<div class="modal__product">
+					<img src="assets/img/icons/cross_thin.svg" alt="" class="product__cross">
+	
+					<img src="assets/img/product/table.jpg" alt="product" class="product__img">
+	
+					<div class="product__text">
+						<h2 class="product__title">Стол Rider</h2>
+						<h4 class="product__subtitle">Минимализм и комфорт</h4>
+					</div>
+	
+					<div class="product__number">
+						<img src="assets/img/icons/minus.svg" alt="minus" class="product__minus">
+						<h4 class="product__quantity">2</h4>
+						<img src="assets/img/icons/plus.svg" alt="plus" class="product__plus">
+					</div>
+	
+					<h2 class="product__cost">15000<span>тг</span></h2>
+				</div><!-- product -->
+			</div>
+			<div class="modal__footer">
+				<button class="btn btn--black">Оформить заказ</button>
+				<div class="footer__result">
+					<h4 class="footer__title">Общая стоимость:</h4>
+					<h2 class="footer__cost">57000<span>тг</span></h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="assets/js/app.min.js"></script>
+</body>
+
+</html>
